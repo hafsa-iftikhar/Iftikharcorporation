@@ -82,16 +82,16 @@ export default function DenimPage() {
 
   <meta property="og:title" content="Denim Fabric - Iftikhar Corporation" />
   <meta property="og:description" content="High-quality denim fabric with durability and modern finish." />
-  <meta property="og:image" content="https://yourwebsite.com/images/denim1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/denim" />
+  <meta property="og:image" content="https://ictextile.com/images/denim1.webp" />
+  <meta property="og:url" content="https://ictextile.com/denim" />
   <meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Denim Fabric" />
   <meta name="twitter:description" content="Premium denim textile production." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/denim1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/denim1.webp" />
 
-  <link rel="canonical" href="https://yourwebsite.com/denim" />
+  <link rel="canonical" href="https://ictextile.com/denim" />
 
   <script type="application/ld+json">
     {`

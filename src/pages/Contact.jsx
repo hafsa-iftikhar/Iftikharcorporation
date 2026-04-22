@@ -47,8 +47,8 @@ export default function Contact() {
     property="og:description"
     content="Get in touch with Iftikhar Corporation for premium garment and textile manufacturing in Pakistan."
   />
-  <meta property="og:image" content="https://yourwebsite.com/images/contact.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/contact" />
+  <meta property="og:image" content="https://ictextile.com/images/contact.webp" />
+  <meta property="og:url" content="https://ictextile.com/contact" />
   <meta property="og:type" content="website" />
 
   {/* TWITTER */}
@@ -58,10 +58,10 @@ export default function Contact() {
     name="twitter:description"
     content="Garment manufacturing and textile production company in Karachi, Pakistan."
   />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/contact.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/contact.webp" />
 
   {/* CANONICAL */}
-  <link rel="canonical" href="https://yourwebsite.com/contact" />
+  <link rel="canonical" href="https://ictextile.com/contact" />
 
   {/* STRUCTURED DATA (LOCAL BUSINESS SEO BOOST 🔥) */}
   <script type="application/ld+json">
@@ -70,8 +70,8 @@ export default function Contact() {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Iftikhar Corporation",
-      "url": "https://yourwebsite.com",
-      "logo": "https://yourwebsite.com/logo.png",
+      "url": "https://ictextile.com",
+      "logo": "https://ictextile.com/logo.png",
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+923702490300",

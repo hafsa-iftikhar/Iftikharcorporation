@@ -97,18 +97,18 @@ export default function HoodiesPage() {
   {/* Open Graph */}
   <meta property="og:title" content="Hoodies & Sweatshirts - Iftikhar Corporation" />
   <meta property="og:description" content="Premium hoodies and sweatshirts collection." />
-  <meta property="og:image" content="https://yourwebsite.com/images/oversizehoodie1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/hoodies" />
+  <meta property="og:image" content="https://ictextile.com/images/oversizehoodie1.webp" />
+  <meta property="og:url" content="https://ictextile.com/hoodies" />
   <meta property="og:type" content="website" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Hoodies & Sweatshirts" />
   <meta name="twitter:description" content="Modern hoodies and sweatshirts collection." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/oversizehoodie1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/yourwebsite.com/images/oversizehoodie1.webp" />
 
   {/* Canonical */}
-  <link rel="canonical" href="https://yourwebsite.com/hoodies" />
+  <link rel="canonical" href="https://ictextile.com/hoodies" />
 
   {/* Structured Data */}
   <script type="application/ld+json">
@@ -118,7 +118,7 @@ export default function HoodiesPage() {
       "@type": "CollectionPage",
       "name": "Hoodies & Sweatshirts",
       "description": "Premium hoodies and sweatshirts by Iftikhar Corporation",
-      "url": "https://yourwebsite.com/hoodies"
+      "url": "https://ictextile.com/hoodies"
     }
     `}
   </script>

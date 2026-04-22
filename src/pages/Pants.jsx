@@ -107,18 +107,18 @@ export default function PantsPage() {
   {/* Open Graph */}
   <meta property="og:title" content="Bottoms Collection - Iftikhar Corporation" />
   <meta property="og:description" content="Premium pants and trousers with modern design and comfort." />
-  <meta property="og:image" content="https://yourwebsite.com/images/pants1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/bottoms" />
+  <meta property="og:image" content="https://ictextile.com/images/pants1.webp" />
+  <meta property="og:url" content="https://ictextile.com/bottoms" />
   <meta property="og:type" content="website" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Bottoms Collection" />
   <meta name="twitter:description" content="High-quality pants and trousers collection." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/pants1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/pants1.webp" />
 
   {/* Canonical */}
-  <link rel="canonical" href="https://yourwebsite.com/bottoms" />
+  <link rel="canonical" href="https://ictextile.com/bottoms" />
 
   {/* Structured Data */}
   <script type="application/ld+json">
@@ -128,7 +128,7 @@ export default function PantsPage() {
       "@type": "CollectionPage",
       "name": "Bottoms Collection",
       "description": "Premium pants and trousers by Iftikhar Corporation",
-      "url": "https://yourwebsite.com/bottoms"
+      "url": "https://ictextile.com/bottoms"
     }
     `}
   </script>

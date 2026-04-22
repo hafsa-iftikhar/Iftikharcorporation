@@ -88,16 +88,16 @@ export default function ShirtsPage() {
 
   <meta property="og:title" content="Shirts Collection - Iftikhar Corporation" />
   <meta property="og:description" content="Premium shirts with expert stitching and modern design." />
-  <meta property="og:image" content="https://yourwebsite.com/images/shirt1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/shirts" />
+  <meta property="og:image" content="https://ictextile.com/images/shirt1.webp" />
+  <meta property="og:url" content="https://ictextile.com/shirts" />
   <meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Shirts Collection" />
   <meta name="twitter:description" content="High-quality shirts collection." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/shirt1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/shirt1.webp" />
 
-  <link rel="canonical" href="https://yourwebsite.com/shirts" />
+  <link rel="canonical" href="https://ictextile.com/shirts" />
 
   <script type="application/ld+json">
     {`
@@ -106,7 +106,7 @@ export default function ShirtsPage() {
       "@type": "CollectionPage",
       "name": "Shirts Collection",
       "description": "Premium shirts by Iftikhar Corporation",
-      "url": "https://yourwebsite.com/shirts"
+      "url": "https://ictextile.com/shirts"
     }
     `}
   </script>

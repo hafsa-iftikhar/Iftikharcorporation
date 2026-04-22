@@ -56,8 +56,8 @@ useEffect(() => {
     property="og:description"
     content="High-quality garment manufacturing and textile production in Pakistan."
   />
-  <meta property="og:image" content="https://yourwebsite.com/images/hero.webp" />
-  <meta property="og:url" content="https://yourwebsite.com" />
+  <meta property="og:image" content="https://ictextile.com/images/hero.webp" />
+  <meta property="og:url" content="https://ictextile.com" />
   <meta property="og:type" content="website" />
 
   {/* TWITTER */}
@@ -67,10 +67,10 @@ useEffect(() => {
     name="twitter:description"
     content="Garment manufacturing and textile production in Pakistan."
   />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/hero.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/hero.webp" />
 
   {/* CANONICAL */}
-  <link rel="canonical" href="https://yourwebsite.com" />
+  <link rel="canonical" href="https://ictextile.com" />
 </Helmet>
 
 {/****************** SECTION: 01 *********************/}
@@ -82,7 +82,7 @@ useEffect(() => {
           <h1>Garment Manufacturing in Pakistan</h1>
 
           <p className="tagline">UNLEASH YOUR STYLE</p>
-          <p className="website">www.iftikharcorporation.com</p>
+          <p className="website">www.ictextile.com</p>
         </div>
 
   <div className="image-row collapsed">

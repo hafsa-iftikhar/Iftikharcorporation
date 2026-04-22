@@ -126,18 +126,18 @@ useEffect(() => {
   {/* OPEN GRAPH */}
   <meta property="og:title" content="About Iftikhar Corporation" />
   <meta property="og:description" content="Premium garment manufacturing company specializing in high-quality sweaters, tees, and textiles." />
-  <meta property="og:image" content="https://yourwebsite.com/images/aboutbackground.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/about" />
+  <meta property="og:image" content="https://ictextile.com/images/aboutbackground.webp" />
+  <meta property="og:url" content="https://ictextile.com/about" />
   <meta property="og:type" content="website" />
 
   {/* TWITTER */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="About Iftikhar Corporation" />
   <meta name="twitter:description" content="Premium garment manufacturing company in Pakistan." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/aboutbackground.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/aboutbackground.webp" />
 
   {/* CANONICAL */}
-  <link rel="canonical" href="https://yourwebsite.com/about" />
+  <link rel="canonical" href="https://ictextile.com/about" />
 
   {/* STRUCTURED DATA (SEO BOOST) */}
   <script type="application/ld+json">
@@ -146,8 +146,8 @@ useEffect(() => {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Iftikhar Corporation",
-      "url": "https://yourwebsite.com",
-      "logo": "https://yourwebsite.com/logo.png",
+      "url": "https://ictextile.com",
+      "logo": "https://ictextile.com/logo.png",
       "description": "Premium garment manufacturing company in Pakistan.",
       "address": {
         "@type": "PostalAddress",

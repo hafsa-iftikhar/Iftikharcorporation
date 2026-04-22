@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
 
         <meta name="robots" content="index, follow" />
 
-        <link rel="canonical" href="https://yourwebsite.com/privacy-policy" />
+        <link rel="canonical" href="https://ictextile.com/privacy-policy" />
 
         {/* Open Graph */}
         <meta property="og:title" content="Privacy Policy | Iftikhar Corporation" />

@@ -82,16 +82,16 @@ export default function WovenPage() {
 
   <meta property="og:title" content="Woven Fabric - Iftikhar Corporation" />
   <meta property="og:description" content="Premium woven fabric production with durability and quality." />
-  <meta property="og:image" content="https://yourwebsite.com/images/woven1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/woven" />
+  <meta property="og:image" content="https://ictextile.com/images/woven1.webp" />
+  <meta property="og:url" content="https://ictextile.com/woven" />
   <meta property="og:type" content="website" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Woven Fabric" />
   <meta name="twitter:description" content="High-quality woven textile manufacturing." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/woven1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/woven1.webp" />
 
-  <link rel="canonical" href="https://yourwebsite.com/woven" />
+  <link rel="canonical" href="https://ictextile.com/woven" />
 
   <script type="application/ld+json">
     {`

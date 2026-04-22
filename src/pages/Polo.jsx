@@ -128,17 +128,17 @@ export default function PoloPage() {
   {/* Open Graph */}
   <meta property="og:title" content="Polo & Tees Collection - Iftikhar Corporation" />
   <meta property="og:description" content="Premium polos and tees with modern design and comfort." />
-  <meta property="og:image" content="https://yourwebsite.com/images/polo1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/polo" />
+  <meta property="og:image" content="https://ictextile.com/images/polo1.webp" />
+  <meta property="og:url" content="https://ictextile.com/polo" />
   <meta property="og:type" content="website" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Polo & Tees Collection" />
   <meta name="twitter:description" content="Premium polo shirts and tees collection." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/polo1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/polo1.webp" />
 
-  <link rel="canonical" href="https://yourwebsite.com/polo" />
+  <link rel="canonical" href="https://ictextile.com/polo" />
 
   <script type="application/ld+json">
     {`
@@ -147,7 +147,7 @@ export default function PoloPage() {
       "@type": "CollectionPage",
       "name": "Polo & Tees Collection",
       "description": "Premium polo shirts and tees by Iftikhar Corporation",
-      "url": "https://yourwebsite.com/polo"
+      "url": "https://ictextile.com/polo"
     }
     `}
   </script>

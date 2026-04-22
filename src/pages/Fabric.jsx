@@ -60,18 +60,18 @@ useEffect(() => {
   {/* Open Graph */}
   <meta property="og:title" content="Fabric Manufacturing - Iftikhar Corporation" />
   <meta property="og:description" content="Premium fabric production including knitted, woven, and denim." />
-  <meta property="og:image" content="https://yourwebsite.com/images/fabric1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/fabric" />
+  <meta property="og:image" content="https://ictextile.com/images/fabric1.webp" />
+  <meta property="og:url" content="https://ictextile.com/fabric" />
   <meta property="og:type" content="website" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Fabric Manufacturing" />
   <meta name="twitter:description" content="High-quality textile and fabric production." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/fabric1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/fabric1.webp" />
 
   {/* Canonical */}
-  <link rel="canonical" href="https://yourwebsite.com/fabric" />
+  <link rel="canonical" href="https://ictextile.com/fabric" />
 
   {/* Structured Data */}
   <script type="application/ld+json">

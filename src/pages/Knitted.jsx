@@ -118,17 +118,17 @@ export default function KnittedPage() {
   {/* Open Graph */}
   <meta property="og:title" content="Knitted Fabric - Iftikhar Corporation" />
   <meta property="og:description" content="High-quality knitted fabric manufacturing." />
-  <meta property="og:image" content="https://yourwebsite.com/images/knitted1.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/knitted" />
+  <meta property="og:image" content="https://ictextile.com/images/knitted1.webp" />
+  <meta property="og:url" content="https://ictextile.com/knitted" />
   <meta property="og:type" content="website" />
 
   {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Knitted Fabric" />
   <meta name="twitter:description" content="Premium knitted textile production." />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/knitted1.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/knitted1.webp" />
 
-  <link rel="canonical" href="https://yourwebsite.com/knitted" />
+  <link rel="canonical" href="https://ictextile.com/knitted" />
 
   {/* Structured Data */}
   <script type="application/ld+json">

@@ -74,8 +74,8 @@ const sectionRef = useRef(null);
     property="og:description"
     content="Premium stitched garments with expert craftsmanship and modern designs."
   />
-  <meta property="og:image" content="https://yourwebsite.com/images/stitched2.webp" />
-  <meta property="og:url" content="https://yourwebsite.com/stitched" />
+  <meta property="og:image" content="https://ictextile.com/images/stitched2.webp" />
+  <meta property="og:url" content="https://ictextile.com/stitched" />
   <meta property="og:type" content="website" />
 
   {/* TWITTER */}
@@ -85,10 +85,10 @@ const sectionRef = useRef(null);
     name="twitter:description"
     content="High-quality stitched garments designed with precision and style."
   />
-  <meta name="twitter:image" content="https://yourwebsite.com/images/stitched2.webp" />
+  <meta name="twitter:image" content="https://ictextile.com/images/stitched2.webp" />
 
   {/* CANONICAL */}
-  <link rel="canonical" href="https://yourwebsite.com/stitched" />
+  <link rel="canonical" href="https://ictextile.com/stitched" />
 
   {/* STRUCTURED DATA */}
   <script type="application/ld+json">
@@ -102,7 +102,7 @@ const sectionRef = useRef(null);
         "name": "Iftikhar Corporation"
       },
       "description": "Premium stitched garments with expert tailoring and modern designs.",
-      "image": "https://yourwebsite.com/images/stitched2.webp"
+      "image": "https://ictextile.com/images/stitched2.webp"
     }
     `}
   </script>
