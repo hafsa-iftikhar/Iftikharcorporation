@@ -1,0 +1,430 @@
+/* ===== HERO SECTION ===== */
+.hoodies-hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url("/images/hoodiebg.webp") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hoodies-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.hoodies-content h1,
+.hoodies-content p {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: hoodiesFadeUp 0.9s ease forwards;
+}
+
+/* stagger */
+.hoodies-content h1 {
+  animation-delay: 0.3s;
+}
+
+.hoodies-content p {
+  animation-delay: 0.6s;
+}
+
+/* keyframes */
+@keyframes hoodiesFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* content */
+.hoodies-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  padding: 20px;
+}
+
+.hoodies-content h1 {
+  font-size: 80px;
+  letter-spacing: 12px;
+  font-weight: 500;
+  font-family: 'Lunasima', serif;
+  margin-bottom: 20px;
+}
+
+.hoodies-content p {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+/* ===== RESPONSIVE HERO ===== */
+@media (max-width: 1200px) {
+  .hoodies-content h1 {
+    font-size: 70px;
+    letter-spacing: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hoodies-hero {
+    height: 80vh;
+  }
+
+  .hoodies-content h1 {
+    font-size: 55px;
+    letter-spacing: 6px;
+  }
+
+  .hoodies-content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hoodies-hero {
+    height: 70vh;
+  }
+
+  .hoodies-content h1 {
+    font-size: 45px;
+    letter-spacing: 4px;
+  }
+
+  .hoodies-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hoodies-hero {
+    height: 60vh;
+  }
+
+  .hoodies-content h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+
+  .hoodies-content p {
+    font-size: 14px;
+  }
+}
+
+/**************** SECTION 02 ****************/
+
+/* base */
+.hoodies-collection {
+  width: 100%;
+  padding: 40px 8%;
+  background: #f8f8f8;
+}
+
+/* header */
+.hoodies-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hoodies-header h2 {
+  font-size: 40px;
+  letter-spacing: 8px;
+  font-weight: 500;
+  font-family: 'Tw Cen MT', sans-serif;
+  color: #111;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* underline */
+.hoodies-header h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #b40505;
+  border-radius: 2px;
+}
+
+/* grid */
+.hoodies-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* card */
+.hoodies-card {
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+/* image container */
+.hoodies-img-wrap {
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+}
+
+/* image */
+.hoodies-img-wrap img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  transition: transform 0.6s ease, filter 0.4s ease;
+}
+
+/* overlay */
+.hoodies-img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+/* hover effects */
+.hoodies-card:hover img {
+  transform: scale(1.08);
+  filter: brightness(1.05);
+}
+
+.hoodies-card:hover .hoodies-img-wrap::after {
+  opacity: 1;
+}
+
+/* title */
+.hoodies-card h3 {
+  margin-top: 14px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #111;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/* underline */
+.hoodies-card h3::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: #b40505;
+  transition: 0.4s ease;
+}
+
+.hoodies-card:hover h3 {
+  letter-spacing: 2px;
+}
+
+.hoodies-card:hover h3::after {
+  width: 40%;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+  .hoodies-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .hoodies-img-wrap img {
+    height: 380px;
+  }
+
+  .hoodies-header h2 {
+    font-size: 36px;
+    letter-spacing: 7px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hoodies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hoodies-img-wrap img {
+    height: 340px;
+  }
+
+  .hoodies-header h2 {
+    font-size: 32px;
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hoodies-collection {
+    padding: 70px 5%;
+  }
+
+  .hoodies-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .hoodies-img-wrap img {
+    height: 220px;
+  }
+
+  .hoodies-card h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .hoodies-header h2 {
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
+}
+
+/* ===== MODAL ===== */
+.hoodies-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 20px;
+}
+
+.hoodies-modal-box {
+  position: relative;
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.hoodies-modal-img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 6px;
+  display: block;
+  margin-top: 20px;
+}
+
+.hoodies-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+  color: #b90404;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  z-index: 10;
+  transition: color 0.2s ease;
+}
+
+.hoodies-close:hover {
+  color: #ff5555;
+  background: transparent;
+}
+
+/* dots */
+.hoodies-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 6px;
+}
+
+.hoodies-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.hoodies-active-dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(255,255,255,0.9);
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 992px) {
+  .hoodies-modal-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .hoodies-modal-img {
+    max-height: 75vh;
+    margin-top: 15px;
+  }
+
+  .hoodies-close {
+    font-size: 20px;
+    top: 6px;
+    right: 6px;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 576px) {
+  .hoodies-modal {
+    padding: 10px;
+  }
+
+  .hoodies-modal-box {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .hoodies-modal-img {
+    max-height: 65vh;
+    margin-top: 10px;
+  }
+
+  .hoodies-close {
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .hoodies-dots {
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  .hoodies-dots span {
+    width: 6px;
+    height: 6px;
+  }
+
+  .hoodies-active-dot {
+    width: 8px;
+    height: 8px;
+  }
+}

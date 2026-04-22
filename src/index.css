@@ -1,0 +1,92 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #213547;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+button {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #fbfbfb;
+    color: #ffffff;
+  }
+
+  a {
+    color: #ffffff;
+  }
+}
+
+/* 🖋️ Lunasima */
+@font-face {
+  font-family: 'Lunasima';
+  src: url('./assets/fonts/Lunasima.woff2') format('woff2'),
+       url('./assets/fonts/Lunasima.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ✨ Tw Cen MT */
+@font-face {
+  font-family: 'Tw Cen MT';
+  src: url('./assets/fonts/TwCenMT.woff2') format('woff2'),
+       url('./assets/fonts/TwCenMT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

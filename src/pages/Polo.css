@@ -1,0 +1,430 @@
+/* ===== HERO SECTION ===== */
+.polo-hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url("/images/polobg.webp") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.polo-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.polo-content h1,
+.polo-content p {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: poloFadeUp 0.9s ease forwards;
+}
+
+/* stagger */
+.polo-content h1 {
+  animation-delay: 0.3s;
+}
+
+.polo-content p {
+  animation-delay: 0.6s;
+}
+
+/* keyframes */
+@keyframes poloFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* content */
+.polo-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+  padding: 20px;
+}
+
+.polo-content h1 {
+  font-size: 80px;
+  letter-spacing: 12px;
+  font-weight: 500;
+  font-family: 'Lunasima', serif;
+  margin-bottom: 20px;
+}
+
+.polo-content p {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+/* ===== RESPONSIVE HERO ===== */
+@media (max-width: 1200px) {
+  .polo-content h1 {
+    font-size: 70px;
+    letter-spacing: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .polo-hero {
+    height: 80vh;
+  }
+
+  .polo-content h1 {
+    font-size: 55px;
+    letter-spacing: 6px;
+  }
+
+  .polo-content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .polo-hero {
+    height: 70vh;
+  }
+
+  .polo-content h1 {
+    font-size: 45px;
+    letter-spacing: 4px;
+  }
+
+  .polo-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .polo-hero {
+    height: 60vh;
+  }
+
+  .polo-content h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+
+  .polo-content p {
+    font-size: 14px;
+  }
+}
+
+/**************** SECTION 02 ****************/
+
+/* base */
+.polo-collection {
+  width: 100%;
+  padding: 40px 8%;
+  background: #f8f8f8;
+}
+
+/* header */
+.polo-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.polo-header h2 {
+  font-size: 40px;
+  letter-spacing: 8px;
+  font-weight: 500;
+  font-family: 'Tw Cen MT', sans-serif;
+  color: #111;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* underline */
+.polo-header h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #b40505;
+  border-radius: 2px;
+}
+
+/* grid */
+.polo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* card */
+.polo-card {
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+/* image container */
+.polo-img-wrap {
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+}
+
+/* image */
+.polo-img-wrap img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  transition: transform 0.6s ease, filter 0.4s ease;
+}
+
+/* overlay */
+.polo-img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+/* hover effects */
+.polo-card:hover img {
+  transform: scale(1.08);
+  filter: brightness(1.05);
+}
+
+.polo-card:hover .polo-img-wrap::after {
+  opacity: 1;
+}
+
+/* title */
+.polo-card h3 {
+  margin-top: 14px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #111;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/* underline */
+.polo-card h3::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: #b40505;
+  transition: 0.4s ease;
+}
+
+.polo-card:hover h3 {
+  letter-spacing: 2px;
+}
+
+.polo-card:hover h3::after {
+  width: 40%;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+  .polo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .polo-img-wrap img {
+    height: 380px;
+  }
+
+  .polo-header h2 {
+    font-size: 36px;
+    letter-spacing: 7px;
+  }
+}
+
+@media (max-width: 992px) {
+  .polo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .polo-img-wrap img {
+    height: 340px;
+  }
+
+  .polo-header h2 {
+    font-size: 32px;
+    letter-spacing: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .polo-collection {
+    padding: 70px 5%;
+  }
+
+  .polo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .polo-img-wrap img {
+    height: 220px;
+  }
+
+  .polo-card h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .polo-header h2 {
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
+}
+
+/* ===== MODAL ===== */
+.polo-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 20px;
+}
+
+.polo-modal-box {
+  position: relative;
+  width: 85%;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.polo-modal-img {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 6px;
+  display: block;
+  margin-top: 20px;
+}
+
+.polo-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+  color: #b90404;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  z-index: 10;
+  transition: color 0.2s ease;
+}
+
+.polo-close:hover {
+  color: #ff5555;
+  background: transparent;
+}
+
+/* dots */
+.polo-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 6px;
+}
+
+.polo-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+}
+
+.polo-active-dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(255,255,255,0.9);
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 992px) {
+  .polo-modal-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .polo-modal-img {
+    max-height: 75vh;
+    margin-top: 15px;
+  }
+
+  .polo-close {
+    font-size: 20px;
+    top: 6px;
+    right: 6px;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 576px) {
+  .polo-modal {
+    padding: 10px;
+  }
+
+  .polo-modal-box {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .polo-modal-img {
+    max-height: 65vh;
+    margin-top: 10px;
+  }
+
+  .polo-close {
+    font-size: 18px;
+    top: 5px;
+    right: 5px;
+  }
+
+  .polo-dots {
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  .polo-dots span {
+    width: 6px;
+    height: 6px;
+  }
+
+  .polo-active-dot {
+    width: 8px;
+    height: 8px;
+  }
+}
