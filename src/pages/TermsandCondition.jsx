@@ -1,9 +1,48 @@
 import React from "react";
 import "./PrivacyPolicy.css";
+import { Helmet } from "react-helmet";
 
 export default function TermsandCondition() {
   return (
     <section className="terms-section">
+      <Helmet>
+        {/* BASIC SEO */}
+        <title>Terms & Conditions | Iftikhar Corporation</title>
+        <meta
+          name="description"
+          content="Read the Terms & Conditions of Iftikhar Corporation, a garment manufacturing company in Pakistan offering apparel production services including t-shirts, hoodies, polos, and custom clothing."
+        />
+        <meta
+          name="keywords"
+          content="terms and conditions garment manufacturer Pakistan, textile company policies, Iftikhar Corporation terms, apparel manufacturing agreement"
+        />
+        <meta name="author" content="Iftikhar Corporation" />
+
+        {/* ROBOTS */}
+        <meta name="robots" content="index, follow" />
+
+        {/* OPEN GRAPH */}
+        <meta property="og:title" content="Terms & Conditions - Iftikhar Corporation" />
+        <meta
+          property="og:description"
+          content="Learn about our terms including MOQ, pricing, payments, and garment production policies."
+        />
+        <meta property="og:image" content="https://ictextile.com/images/contact.webp" />
+        <meta property="og:url" content="https://ictextile.com/terms" />
+        <meta property="og:type" content="website" />
+
+        {/* TWITTER */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Terms & Conditions - Iftikhar Corporation" />
+        <meta
+          name="twitter:description"
+          content="Garment manufacturing terms including payment policy, MOQ, and production details."
+        />
+        <meta name="twitter:image" content="https://ictextile.com/images/contact.webp" />
+
+        {/* CANONICAL */}
+        <link rel="canonical" href="https://ictextile.com/terms" />
+      </Helmet>
       <div className="terms-container">
 
         <h1>Terms & Conditions</h1>
@@ -64,7 +103,7 @@ export default function TermsandCondition() {
           <li>50% advance is mandatory for order confirmation</li>
           <li>Remaining 50% must be paid before shipment or delivery</li>
           <li>Production will not start without advance payment</li>
-          <li>All payments must be made through approved company channels</li>
+          <li>All payments must be made through bank transfer only</li>
         </ul>
 
         {/* 6 */}
