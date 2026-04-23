@@ -111,6 +111,26 @@ export default function PoloPage() {
     return () => window.removeEventListener("keydown", keyHandler);
   }, [selected]);
 
+  /************swipe navigation *************/
+  const [touchStart, setTouchStart] = useState(0);
+  const [touchEnd, setTouchEnd] = useState(0);
+  const handleTouchStart = (e) => {
+  setTouchStart(e.targetTouches[0].clientX);
+};
+
+const handleTouchMove = (e) => {
+  setTouchEnd(e.targetTouches[0].clientX);
+};
+
+const handleTouchEnd = () => {
+  if (touchStart - touchEnd > 50) {
+    next(); // swipe left → next
+  }
+
+  if (touchEnd - touchStart > 50) {
+    prev(); // swipe right → previous
+  }
+};
   return (
     <>
     <Helmet>
@@ -196,6 +216,9 @@ export default function PoloPage() {
               src={selected.images[index]}
               alt="preview"
               className="polo-modal-img"
+              onTouchStart={handleTouchStart}
+              onTouchMove={handleTouchMove}
+              onTouchEnd={handleTouchEnd}
             />
 
             <button className="polo-close" onClick={close}>

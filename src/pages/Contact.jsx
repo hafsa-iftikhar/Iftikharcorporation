@@ -187,11 +187,11 @@ export default function Contact() {
     <div>
       <h4>Address</h4>
       <p>
-        <a
-          href="https://www.google.com/maps?q=Karachi,+Pakistan"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+       <a
+  href="https://www.google.com/maps?q=24.960554,67.080639"
+  target="_blank"
+  rel="noopener noreferrer"
+>
           Karachi, Pakistan
         </a>
       </p>
