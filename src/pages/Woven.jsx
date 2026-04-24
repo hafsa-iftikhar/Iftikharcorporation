@@ -5,22 +5,22 @@ import { Helmet } from "react-helmet";
 const wovenProducts = [
   {
     id: 1,
-    name: "Premium Woven Fabric",
+    name: "Irish linen",
     images: ["/images/irish linen.webp"],
   },
   {
     id: 2,
-    name: "Classic Cotton Woven",
+    name: "100% Cotton",
     images: ["/images/cotton.webp"],
   },
   {
     id: 3,
-    name: "Modern Structured Weave",
+    name: "Striped fabric",
     images: ["/images/striped.webp"],
   },
   {
     id: 4,
-    name: "Lightweight Woven Textile",
+    name: "Checked fabrics",
     images: ["/images/checked.webp"],
   },
 ];
