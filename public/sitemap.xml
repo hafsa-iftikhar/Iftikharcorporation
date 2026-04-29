@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url><loc>https://ictextile.com/</loc></url>
+  <url><loc>https://ictextile.com/about</loc></url>
+  <url><loc>https://ictextile.com/catalogue</loc></url>
+  <url><loc>https://ictextile.com/contact</loc></url>
+
+  <!-- Main Sections -->
+  <url><loc>https://ictextile.com/fabric</loc></url>
+  <url><loc>https://ictextile.com/stitched</loc></url>
+
+  <!-- Stitched Products -->
+  <url><loc>https://ictextile.com/tshirts</loc></url>
+  <url><loc>https://ictextile.com/polo</loc></url>
+  <url><loc>https://ictextile.com/pants</loc></url>
+  <url><loc>https://ictextile.com/hoodies</loc></url>
+
+  <!-- Fabric Categories -->
+  <url><loc>https://ictextile.com/fabric/woven</loc></url>
+  <url><loc>https://ictextile.com/fabric/knitted</loc></url>
+  <url><loc>https://ictextile.com/fabric/denim</loc></url>
+
+  <!-- Policies -->
+  <url><loc>https://ictextile.com/privacy-policy</loc></url>
+  <url><loc>https://ictextile.com/terms</loc></url>
+
+</urlset>
